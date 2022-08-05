@@ -1,0 +1,291 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  background-color: #f3efef;
+}
+
+nav{
+  text-align: right;  
+}
+
+.nav-item{
+  margin-right: 5px;
+  color: white;
+  padding-right: 5px;
+}
+
+.nav-item-active{
+  margin-right: 20px;
+  padding:5px 10px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+.nav-item-active:hover{ 
+    background-color: #fff;
+    color: #4618FE;
+}
+
+header{
+  background-color: #4618FE;
+  color: white;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.header-image{
+  position: absolute;
+  margin-left: 905px;
+  margin-top: -380px;
+}
+
+.header-text{
+  padding-bottom: 100px;
+  font-family: 'Poppins';
+  word-spacing: 5px;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.logo{
+  padding-bottom: 40px;
+}
+
+a{
+  text-decoration: none;
+  padding:  60px;
+  color: #676666;
+}
+
+a:hover{
+  color: black;
+  font-weight: 100;
+}
+.api{
+  padding-left: 30px;
+}
+
+.cards{
+  display: flex;
+  margin-bottom: 60px;
+}
+/* 
+.card-active{
+  padding-right: 30px;
+  margin-right: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px 1px #acabab;
+} */
+
+.card{
+  margin-right: 60px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.card:hover{
+  box-shadow: 10px 10px 20px 1px #acabab;
+}
+
+.card-active{
+  border-radius: 20px;
+  margin-right: 30px;
+}
+.card-active:hover{
+  box-shadow: 10px 10px 20px 1px #acabab;
+}
+
+.api::after{
+  content: '>';
+  display: flex;
+  justify-content: end;
+  margin-top: -130px;
+  background-color: #4618FE;
+  width: fit-content;
+  margin-left: 1400px;
+  font-size: 30px;
+  padding:  1px 7px;
+  border-radius: 100%;
+  color: #ffffff;
+}
+
+.blog-heading{
+  margin-left: 30px;
+}
+
+.blog-heading ::after{
+  content: 'See All Article';
+  font-weight: normal ;
+  font-size: 20px;
+  margin-left: 1100px;
+  color: #4618FE;
+}
+
+.blog-cards{
+  display: flex;
+  background-color: #fff;
+}
+
+.blog-cards > .blog-card{
+    display: flex;
+    width: fit-content;
+    justify-content: space-between;
+    padding-right: 80px;
+    margin-left: 30px;
+    box-shadow: 10px 10px 2px 2px #acabab;
+}
+
+.blog-content{
+  padding-left: 30px;
+}
+
+.blog-bottom , .blog-author{
+  margin-top: 260px;
+}
+
+.download-section{
+  display: flex;
+  align-items: center;
+}
+
+.faq-section{
+  display: flex;
+  background-color: rgb(222, 231, 233);
+  justify-content: space-between;
+  padding-left: 30px;
+  margin-top: 50px;
+}
+
+.faq-content > h2{
+  font-size: 30px;
+}
+
+.faq-content button{
+  background: #4618FE;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.faq-image{
+  height: fit-content;
+}
+
+.download-section{
+  display: flex;
+  background-color: #ffffff;
+  padding: 50px;
+}
+
+.download-content{
+  width: 50%;
+  margin-left: 30px;
+}
+
+.download-email{
+  width: 50%;
+  margin-left: 300px;
+}
+
+input {
+  margin-right: -5px;
+  padding: 10PX  50px;
+  border: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: -10px;
+  background-color: #dee7e9;
+}
+
+.download-email{
+  padding:40px;
+}
+
+form>button{
+  padding: 10px  20px;
+  border: none;
+  background-color: #4618FE;
+  color: #ffffff;
+  border-radius: 20px;
+  margin-left: -30px;
+}
+
+.footer-section{
+  background-color: #4618FE;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 30px;
+}
+
+.logos-list{
+  display: flex;
+  list-style-type: none;
+}
+
+.footer-logos{
+  padding-left: 40px;
+}
+
+
+.list{
+  margin-left: -60px;
+}
+
+ul{
+  display: flex;
+}
+
+.list-items{
+  /* padding: 20px; */
+  color: #ffffff;
+  list-style-type: none;
+  flex-direction: row;
+}
+
+.logos-list{
+  padding-right: 70px;
+  margin-right: 30px;
+  color: #ffffff;
+}
+
+.list li:not(:last-child) {
+  border-right:1px  solid;
+  padding: 0 10px;
+  align-items: center;
+}
+
+.list :last-child{
+  padding: 0 10px;
+}
+
+.logos-list li:not(:last-child) {
+  border-right:1px  solid;
+  padding: 0 10px;
+  align-items: center;
+}
+
+.logos-list :last-child{
+  padding: 0 10px;
+}
+
+.footer-section{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.footer-left{
+  padding-left: 30px;
+}
+
+
